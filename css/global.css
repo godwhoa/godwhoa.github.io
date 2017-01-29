@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
-  transition: all 300ms ease-in-out;
+  transition: all 50ms ease-in-out;
 }
 
 html {

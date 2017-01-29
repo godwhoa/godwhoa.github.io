@@ -1,7 +1,10 @@
 <template>
   <nav class="nav">
     <div class="nav-left">
-      <router-link class="nav-item" to="/" v-if="page != 'home'">
+      <router-link class="nav-item" to="/dashboard" v-if="page == 'edit'">
+        <h1 class="title brand-right"><i class="fa fa-arrow-left"></i></h1>
+      </router-link>
+      <router-link class="nav-item" to="/" v-else-if="page != 'home'">
         <h1 class="title brand-botup"><span>B</span>otup</h1>
       </router-link>
     </div>
